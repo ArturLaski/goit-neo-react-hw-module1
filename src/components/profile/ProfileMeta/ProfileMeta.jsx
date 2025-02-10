@@ -1,11 +1,11 @@
 import { Avatar, Bio } from '@components/profile';
 import css from './ProfileMeta.module.css';
 
-const ProfileMeta = ({ username, tag, location, image }) => {
+const ProfileMeta = ({ name, tag, location, image }) => {
   return (
     <div className={css.profileTop}>
-      <Avatar meta={{ image, username }} shape="circle" />
-      <Bio meta={{ username, tag, location }} />
+      <Avatar meta={{ image, name }} shape="circle" />
+      <Bio meta={{ name, tag, location }} />
     </div>
   );
 };
