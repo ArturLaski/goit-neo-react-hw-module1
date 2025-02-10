@@ -10,4 +10,5 @@ const Bio = ({ meta: { name, tag, location } }) => {
   );
 };
 
+
 export default Bio;
